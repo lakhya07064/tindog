@@ -1,0 +1,206 @@
+
+body{
+	font-family: Montserrat;
+	
+}
+
+.ik{
+	color: black;
+}
+
+#title{
+	background-color:#ff4c68;
+	color: white;
+	font-weight: bolder;
+	padding-top: -1px;
+	
+}
+h1{
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size: 4rem;
+	line-height: 1.5;
+
+}
+h2{
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size: 2.5rem;
+	line-height: 1.5;
+
+}
+
+.navbar-brand{
+	font-weight: bold;
+	font-size: 2.5rem;
+	text-align: left;
+
+
+}
+
+.navbar{
+ background-color: #ff4c68;
+
+}
+.navbar-brand{
+	margin-left: 0;
+}
+
+.nav-link{
+	font-size: 1.3rem;
+}
+
+.container-fluid{
+	padding: 3% 15%;
+}
+
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+.title-img{
+	width: 60%;
+	transform: rotate(25deg);
+	padding-left: 20px;
+	position: absolute;
+}
+#features{
+	padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+.container-fluid{
+  padding: 3% 15% 5% ;	
+}
+h3{
+	font-family:"Montserrat";
+	font-weight: bold;
+}
+p{
+	color: #8f8f8f;
+}
+.icon{
+	color:#ef8172;
+	margin-bottom: 1.5rem;
+}
+.icon:hover{
+	color: #ff4c68;
+}
+.fa1{
+	margin-right: 4px;
+}
+.navbar-nav{
+	margin-left: 50%;
+}
+
+#testimonials{
+	padding: 7% 15%;
+	text-align: center;
+	background-color:#ef8172;
+	color: white;
+}
+.testimonial-img{
+	width: 20%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#press{
+	background-color:#ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+
+}
+
+.press-logo{
+	width: 15%;
+	margin:  20px 20px 50px;
+
+}
+
+
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+#pricing {
+	text-align: center;
+	padding-top: 65px;
+	padding-bottom: 30px;
+}
+.container{
+	padding-top: 60px;
+}
+
+
+#cta{
+	background-color:#ff4c68;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+
+	
+}
+#h33{
+	font-size: 3rem;
+	padding-top: 100px;
+}
+
+#footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+    background: black;
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1080px){
+	h1{
+		font-size: 2rem;
+		line-height: 2.5rem;
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 57px;
+		
+	}
+
+	#title{
+		text-align: center;
+
+	}
+	.title-img{
+		position: static;
+		transform: rotate(25);
+		width: 160px;
+	}
+	.btn{
+		height: 45px;
+		
+		width: 100px;
+		font-size: 10px;
+	}
+	
+	.navbar-toggler {
+		padding-right: 30px;
+	}
+}
